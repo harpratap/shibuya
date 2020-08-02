@@ -1,8 +1,8 @@
 package controller
 
 import (
-	"shibuya/model"
-	"shibuya/utils"
+	"github.com/harpratap/shibuya/model"
+	"github.com/harpratap/shibuya/utils"
 )
 
 func prepareCollection(collection *model.Collection) (*ExecutionData, error) {
