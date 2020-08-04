@@ -3,7 +3,7 @@ package api
 import (
 	"strconv"
 
-	"github.com/harpratap/shibuya/model"
+	"github.com/harpratap/shibuya/shibuya/model"
 )
 
 func getProject(projectID string) (*model.Project, error) {

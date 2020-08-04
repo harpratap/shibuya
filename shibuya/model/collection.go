@@ -9,8 +9,8 @@ import (
 	"time"
 
 	mysql "github.com/go-sql-driver/mysql"
-	"github.com/harpratap/shibuya/config"
-	"github.com/harpratap/shibuya/object_storage"
+	"github.com/harpratap/shibuya/shibuya/config"
+	"github.com/harpratap/shibuya/shibuya/object_storage"
 	log "github.com/sirupsen/logrus"
 )
 
