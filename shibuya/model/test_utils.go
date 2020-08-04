@@ -1,7 +1,7 @@
 package model
 
 import (
-	"github.com/harpratap/shibuya/config"
+	"github.com/harpratap/shibuya/shibuya/config"
 )
 
 func setupAndTeardown() error {

@@ -9,7 +9,7 @@ import (
 	"mime/multipart"
 	"net/http"
 
-	"github.com/harpratap/shibuya/config"
+	"github.com/harpratap/shibuya/shibuya/config"
 )
 
 type localStorage struct {

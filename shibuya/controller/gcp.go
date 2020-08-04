@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/harpratap/shibuya/config"
-	"github.com/harpratap/shibuya/scheduler"
+	"github.com/harpratap/shibuya/shibuya/config"
+	"github.com/harpratap/shibuya/shibuya/scheduler"
 	log "github.com/sirupsen/logrus"
 	google "google.golang.org/api/container/v1"
 )

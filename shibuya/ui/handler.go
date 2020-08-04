@@ -5,10 +5,10 @@ import (
 	"html/template"
 	"net/http"
 
-	"github.com/harpratap/shibuya/api"
-	"github.com/harpratap/shibuya/auth"
-	"github.com/harpratap/shibuya/config"
-	"github.com/harpratap/shibuya/model"
+	"github.com/harpratap/shibuya/shibuya/api"
+	"github.com/harpratap/shibuya/shibuya/auth"
+	"github.com/harpratap/shibuya/shibuya/config"
+	"github.com/harpratap/shibuya/shibuya/model"
 	"github.com/julienschmidt/httprouter"
 	log "github.com/sirupsen/logrus"
 )

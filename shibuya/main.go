@@ -5,8 +5,8 @@ import (
 	"net/http"
 
 	"github.com/gorilla/context"
-	"github.com/harpratap/shibuya/api"
-	"github.com/harpratap/shibuya/ui"
+	"github.com/harpratap/shibuya/shibuya/api"
+	"github.com/harpratap/shibuya/shibuya/ui"
 	"github.com/julienschmidt/httprouter"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	log "github.com/sirupsen/logrus"

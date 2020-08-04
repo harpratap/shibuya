@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/harpratap/shibuya/config"
-	"github.com/harpratap/shibuya/model"
-	"github.com/harpratap/shibuya/scheduler"
-	_ "github.com/harpratap/shibuya/utils"
+	"github.com/harpratap/shibuya/shibuya/config"
+	"github.com/harpratap/shibuya/shibuya/model"
+	"github.com/harpratap/shibuya/shibuya/scheduler"
+	_ "github.com/harpratap/shibuya/shibuya/utils"
 	log "github.com/sirupsen/logrus"
 )
 

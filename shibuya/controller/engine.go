@@ -14,10 +14,10 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/harpratap/shibuya/config"
-	"github.com/harpratap/shibuya/model"
-	"github.com/harpratap/shibuya/scheduler"
-	"github.com/harpratap/shibuya/utils"
+	"github.com/harpratap/shibuya/shibuya/config"
+	"github.com/harpratap/shibuya/shibuya/model"
+	"github.com/harpratap/shibuya/shibuya/scheduler"
+	"github.com/harpratap/shibuya/shibuya/utils"
 	es "github.com/iandyh/eventsource"
 	log "github.com/sirupsen/logrus"
 )

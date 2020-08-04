@@ -5,7 +5,7 @@ import (
 	"encoding/csv"
 	"strings"
 
-	"github.com/harpratap/shibuya/model"
+	"github.com/harpratap/shibuya/shibuya/model"
 )
 
 type ExecutionData struct {
