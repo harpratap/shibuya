@@ -7,7 +7,7 @@ import (
 	"log"
 )
 
-func calCSVRange(totalRows, totalSplits, currentSplit int) (int, int) {
+func CalCSVRange(totalRows, totalSplits, currentSplit int) (int, int) {
 	/*
 		Splits are done using lower ceiling. For 80 lines of CSV with 3 splits,
 		each split gets 26 lines. Since Golang slices exclude high bound we need to
@@ -24,7 +24,7 @@ func calCSVRange(totalRows, totalSplits, currentSplit int) (int, int) {
 	return start, end
 }
 
-func splitCSV(file []byte, totalSplits, currentSplit int) ([]byte, error) {
+func SplitCSV(file []byte, totalSplits, currentSplit int) ([]byte, error) {
 	if currentSplit >= totalSplits {
 		// currentSplit starts at 0
 		return nil, errors.New("Cannot split more than total number of engines")
