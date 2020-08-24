@@ -7,7 +7,7 @@ import (
 	"log"
 )
 
-func CalCSVRange(totalRows, totalSplits, currentSplit int) (int, int) {
+func calCSVRange(totalRows, totalSplits, currentSplit int) (int, int) {
 	/*
 		Splits are done using lower ceiling. For 80 lines of CSV with 3 splits,
 		each split gets 26 lines. Since Golang slices exclude high bound we need to
